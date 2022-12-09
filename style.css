@@ -1,0 +1,51 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 150px;
+    color: #c19f2f;
+}
+.body{
+    background-color:#d1d1d1;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Times New Roman', cursive;
+    font-size: 40px;
+}
+.list{
+    background: #200380;
+    line-height: 20px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:center;
+}
+.list li a{
+    display:inline-block;
+    width: 180px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #c8a638;
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 1px solid;
+}
+
+.left{
+    display: inline-block;
+    width: 50%;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80%);
+    color: #c19f2f;
+}
+footer{
+    text-align: center;
+    background:#200380;
+    color: #d3b03e;
+}
